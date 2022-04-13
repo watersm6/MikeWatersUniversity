@@ -81,3 +81,7 @@ C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\EntityFramework.dll
 C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\EntityFramework.SqlServer.dll
 C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\EntityFramework.xml
 C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.dll
+C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.Mvc.dll
+C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.xml
+C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.Mvc.xml
