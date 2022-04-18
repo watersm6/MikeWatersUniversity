@@ -18,6 +18,7 @@ namespace MikeWatersUniversity.Controllers
     {
         private SchoolContext db = new SchoolContext();
 
+        #region Get: Students
         // GET: Student
         public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
@@ -63,6 +64,9 @@ namespace MikeWatersUniversity.Controllers
             int pageNumber = (page ?? 1);
             return View(students.ToPagedList(pageNumber, pageSize));
         }
+        #endregion
+
+        #region Get: Student/Details
 
         // GET: Student/Details/5
         public ActionResult Details(int? id)
@@ -78,6 +82,9 @@ namespace MikeWatersUniversity.Controllers
             }
             return View(student);
         }
+        #endregion
+ 
+        #region Get: Student/Create
 
         // GET: Student/Create
         public ActionResult Create()
@@ -110,6 +117,10 @@ namespace MikeWatersUniversity.Controllers
             }
             return View(student);
         }
+
+        #endregion
+
+        #region Get: Student/Edit
 
         // GET: Student/Edit/5
         public ActionResult Edit(int? id)
@@ -155,6 +166,9 @@ namespace MikeWatersUniversity.Controllers
             }
             return View(studentToUpdate);
         }
+        #endregion
+
+        #region Student/Delete
 
         // GET: Student/Delete/5
         public ActionResult Delete(int? id, bool? saveChangesError = false)
@@ -193,6 +207,8 @@ namespace MikeWatersUniversity.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        #endregion
 
         protected override void Dispose(bool disposing)
         {

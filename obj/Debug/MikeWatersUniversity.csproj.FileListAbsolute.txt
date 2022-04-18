@@ -85,3 +85,5 @@ C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.dll
 C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.Mvc.dll
 C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.xml
 C:\Users\mdwat\source\repos\MikeWatersUniversity\bin\PagedList.Mvc.xml
+C:\Users\mdwat\source\repos\MikeWatersUniversity\obj\Debug\MikeWatersUniversity.Migrations.InitialCreate.resources
+C:\Users\mdwat\source\repos\MikeWatersUniversity\obj\Debug\MikeWatersUniversity.csproj.GenerateResource.cache
